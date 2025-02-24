@@ -58,7 +58,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
         decoration: BoxDecoration(color: Colors.black),
         child: Center(
           child: Image.asset(
-            'asset/image/concert_splash.png',
+            'asset/logo/concert_splash.png',
             fit: BoxFit.cover,
             width: double.infinity,
             height: double.infinity,

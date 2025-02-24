@@ -38,7 +38,7 @@ dependencies:
   firebase_auth: ^5.3.3
   cloud_firestore: ^5.5.0
   flutter_riverpod: ^2.0.2
-  pedometer: ^4.0.1
+  pedometer: ^4.0.2
   fading_image_button: ^0.10.0+0
   google_fonts: ^6.2.1
   url_launcher: ^6.3.1
@@ -69,7 +69,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - asset/image/concert_splash.png
+    - asset/logo/concert_splash.png
     - asset/image/2025theglow.jpeg
     - asset/image/2025lovesome.jpeg
     - asset/image/2025punklodge.jpeg

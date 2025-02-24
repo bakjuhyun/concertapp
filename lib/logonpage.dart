@@ -52,63 +52,127 @@ class HomePage extends StatelessWidget {
             children: [
               FadingImageButton(
                 onPressed: () {
-        Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => TheGlow2025()),
-        );
-        },
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                  },
                 image: Image.asset("asset/image/2025theglow.jpeg"),
                 onPressedImage: Image.asset("asset/image/2025theglow.jpeg"),
-                width: 250,
-                height: 250,
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025lovesome.jpeg',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoveSome2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025lovesome.jpeg"),
+                onPressedImage: Image.asset("asset/image/2025lovesome.jpeg"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025punklodge.jpeg',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025punklodge.jpeg"),
+                onPressedImage: Image.asset("asset/image/2025punklodge.jpeg"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025loudbridgefestival.jpeg',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025loudbridgefestival.jpeg"),
+                onPressedImage: Image.asset("asset/image/2025loudbridgefestival.jpeg"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025soundberrytheater.jpeg',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025soundberrytheater.jpeg"),
+                onPressedImage: Image.asset("asset/image/2025soundberrytheater.jpeg"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025cherryblossommusicfestival.jpeg',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025cherryblossommusicfestival.jpeg"),
+                onPressedImage: Image.asset("asset/image/2025cherryblossommusicfestival.jpeg"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025seoulspringfestival.png',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025seoulspringfestival.png"),
+                onPressedImage: Image.asset("asset/image/2025seoulspringfestival.png"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025superpop.png',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025superpop.png"),
+                onPressedImage: Image.asset("asset/image/2025superpop.png"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
 
-              Image.asset('asset/image/2025greencamp.png',
-                width: 250,
-                height: 250,
+              FadingImageButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TheGlow2025()),
+                  );
+                },
+                image: Image.asset("asset/image/2025greencamp.png"),
+                onPressedImage: Image.asset("asset/image/2025greencamp.png"),
+                width: 350,
+                height: 450,
               ),
               SizedBox(height: 1),
             ],
